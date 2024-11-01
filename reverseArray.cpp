@@ -1,5 +1,5 @@
 #include<iostream>
-#include<limits.h>
+#include<algorithm>
 using namespace std;
 // Reverse array element
 // array -> {5,10,15,-2,24,78}
@@ -15,6 +15,7 @@ void reverseArray(int arr[], int size){
         start++;
         end--;
     }
+}
 // 2. approach
 // void reverseArray(int arr[], int size){
 //     for(int i = 0; i < size/2; i++){
@@ -22,7 +23,7 @@ void reverseArray(int arr[], int size){
 //         }
 // }
 
-}
+
 int main(){
     int n;
     cout<<"enter size of array: "<<endl;
