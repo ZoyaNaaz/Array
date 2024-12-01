@@ -2,6 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+
 // array1 -> {1, 2, 3, 0, 0, 0}
 // array2 -> {4, 5, 6}
 // output -> {1,2,3,4,5,6}
